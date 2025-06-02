@@ -1,0 +1,19 @@
+VA Scan Technical Report
+===========================================================
+
+- Total Vulnerabilities: 17694
+- Risk Level Counts:
+risk
+N/A         16432
+Medium       1205
+High           35
+Critical       20
+Low             2
+None            0
+- Top Vulnerabilities:
+name
+Service Detection                                 1615
+HyperText Transfer Protocol (HTTP) Information    1456
+HTTP Server Type and Version                      1451
+Web Server No 404 Error Code Check                 786
+SSL Cipher Suites Supported                        718

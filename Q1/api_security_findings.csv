@@ -1,0 +1,101 @@
+No.,Vulnerability Name,Path,App Name
+1,No Rate Limiting on Feedback Submission Endpoint,/api/logs/view,evil-corp-app-10.apk
+2,Improper Session Termination on Logout,/api/auth/login,evil-corp-app-18.apk
+3,No Rate Limiting on Feedback Submission Endpoint,/api/debug/status,evil-corp-app-6.apk
+4,Insecure Login Endpoint Allowing Credential Stuffing,/api/admin/report,evil-corp-app-1.apk
+5,Improper Session Termination on Logout,/api/user/6630/settings,evil-corp-app-18.apk
+6,Overexposed Admin Reports with Unfiltered Data,/api/auth/logout,evil-corp-app-2.apk
+7,Brute-Forceable 2FA Verification Endpoint,/api/admin/create-user,evil-corp-app-19.apk
+8,Token Refresh Endpoint Missing Session Validation,/api/auth/logout,evil-corp-app-17.apk
+9,Hardcoded API Keys Found in Response,/api/user/update-role,evil-corp-app-9.apk
+10,Token Refresh Endpoint Missing Session Validation,/api/auth/2fa/verify,evil-corp-app-11.apk
+11,Mass Assignment on User Role Field,/api/feedback/submit,evil-corp-app-20.apk
+12,Token Refresh Endpoint Missing Session Validation,/api/public/data,evil-corp-app-4.apk
+13,Missing Authorization Check on User Settings Access,/api/profile/upload,evil-corp-app-12.apk
+14,SQL Injection via Unsanitized Search Parameter,/api/internal/test,evil-corp-app-15.apk
+15,Mass Assignment on User Role Field,/api/internal/test,evil-corp-app-7.apk
+16,No Rate Limiting on Feedback Submission Endpoint,/api/auth/logout,evil-corp-app-13.apk
+17,SQL Injection via Unsanitized Search Parameter,/api/auth/refresh-token,evil-corp-app-17.apk
+18,Hardcoded API Keys Found in Response,/api/public/data,evil-corp-app-16.apk
+19,Improper Asset Management of Deprecated Endpoints,/api/debug/status,evil-corp-app-19.apk
+20,Missing Authorization Check on User Settings Access,/api/auth/2fa/verify,evil-corp-app-11.apk
+21,Token Refresh Endpoint Missing Session Validation,/api/config/cors,evil-corp-app-20.apk
+22,Exposed Internal Debug Endpoint,/api/auth/refresh-token,evil-corp-app-4.apk
+23,Improper Session Termination on Logout,/api/internal/test,evil-corp-app-16.apk
+24,Improper Asset Management of Deprecated Endpoints,/api/user/6677/settings,evil-corp-app-15.apk
+25,Sensitive User Data Returned in API Response,/api/auth/2fa/verify,evil-corp-app-3.apk
+26,Insecure Login Endpoint Allowing Credential Stuffing,/api/admin/create-user,evil-corp-app-6.apk
+27,Insecure Login Endpoint Allowing Credential Stuffing,/api/admin/report,evil-corp-app-17.apk
+28,Exposed Internal Debug Endpoint,/api/internal/test,evil-corp-app-7.apk
+29,Unrestricted File Upload in Profile Update,/api/invoice/550/download,evil-corp-app-6.apk
+30,Hardcoded API Keys Found in Response,/api/user/7894/settings,evil-corp-app-5.apk
+31,Direct Object Reference to Other Users' Invoices,/api/feedback/submit,evil-corp-app-11.apk
+32,No Rate Limiting on Feedback Submission Endpoint,/api/logs/view,evil-corp-app-7.apk
+33,Brute-Forceable 2FA Verification Endpoint,/api/auth/2fa/verify,evil-corp-app-14.apk
+34,Insecure Login Endpoint Allowing Credential Stuffing,/api/auth/refresh-token,evil-corp-app-13.apk
+35,Insecure Login Endpoint Allowing Credential Stuffing,/api/export/users,evil-corp-app-20.apk
+36,Overexposed Admin Reports with Unfiltered Data,/api/admin/report,evil-corp-app-11.apk
+37,Mass Assignment on User Role Field,/api/auth/login,evil-corp-app-13.apk
+38,Improper Error Handling Revealing Stack Trace,/api/admin/create-user,evil-corp-app-12.apk
+39,SQL Injection in Product Filtering Endpoint,/api/export/users,evil-corp-app-18.apk
+40,SQL Injection via Unsanitized Search Parameter,/api/public/data,evil-corp-app-9.apk
+41,Exposed Internal Debug Endpoint,/api/logs/view,evil-corp-app-11.apk
+42,Direct Object Reference to Other Users' Invoices,/api/export/users,evil-corp-app-6.apk
+43,Insufficient Logging and Monitoring,/api/config/cors,evil-corp-app-15.apk
+44,Token Refresh Endpoint Missing Session Validation,/api/products/filter,evil-corp-app-18.apk
+45,SQL Injection via Unsanitized Search Parameter,/api/admin/report,evil-corp-app-11.apk
+46,Overexposed Admin Reports with Unfiltered Data,/api/admin/create-user,evil-corp-app-14.apk
+47,Insufficient Logging and Monitoring,/api/internal/test,evil-corp-app-17.apk
+48,Exposed Internal Debug Endpoint,/api/internal/test,evil-corp-app-20.apk
+49,Mass Assignment on User Role Field,/api/feedback/submit,evil-corp-app-16.apk
+50,Overexposed Admin Reports with Unfiltered Data,/api/invoice/8474/download,evil-corp-app-18.apk
+51,Token Refresh Endpoint Missing Session Validation,/api/debug/status,evil-corp-app-3.apk
+52,Improper Session Termination on Logout,/api/products/filter,evil-corp-app-4.apk
+53,No Rate Limiting on Feedback Submission Endpoint,/api/export/users,evil-corp-app-2.apk
+54,Insecure Login Endpoint Allowing Credential Stuffing,/api/public/data,evil-corp-app-15.apk
+55,Missing Authorization Check on User Settings Access,/api/export/users,evil-corp-app-18.apk
+56,Lack of Access Control on Admin Functions,/api/admin/report,evil-corp-app-20.apk
+57,Missing Authorization Check on User Settings Access,/api/auth/login,evil-corp-app-2.apk
+58,Mass Assignment on User Role Field,/api/public/data,evil-corp-app-10.apk
+59,Improper Session Termination on Logout,/api/feedback/submit,evil-corp-app-9.apk
+60,Sensitive User Data Returned in API Response,/api/internal/test,evil-corp-app-1.apk
+61,Brute-Forceable 2FA Verification Endpoint,/api/products/filter,evil-corp-app-1.apk
+62,Mass Assignment on User Role Field,/api/auth/logout,evil-corp-app-11.apk
+63,Hardcoded API Keys Found in Response,/api/config/cors,evil-corp-app-7.apk
+64,Overexposed Admin Reports with Unfiltered Data,/api/auth/refresh-token,evil-corp-app-14.apk
+65,Insecure Login Endpoint Allowing Credential Stuffing,/api/auth/login,evil-corp-app-18.apk
+66,Insufficient Logging and Monitoring,/api/feedback/submit,evil-corp-app-1.apk
+67,Missing Authorization Check on User Settings Access,/api/export/users,evil-corp-app-3.apk
+68,Insecure Login Endpoint Allowing Credential Stuffing,/api/search,evil-corp-app-16.apk
+69,Improper Session Termination on Logout,/api/auth/refresh-token,evil-corp-app-17.apk
+70,Improper CORS Configuration Allowing Wildcard Origins,/api/feedback/submit,evil-corp-app-7.apk
+71,Improper CORS Configuration Allowing Wildcard Origins,/api/auth/logout,evil-corp-app-12.apk
+72,Mass Assignment on User Role Field,/api/feedback/submit,evil-corp-app-18.apk
+73,Lack of Access Control on Admin Functions,/api/auth/2fa/verify,evil-corp-app-13.apk
+74,Token Refresh Endpoint Missing Session Validation,/api/auth/logout,evil-corp-app-4.apk
+75,Mass Assignment on User Role Field,/api/auth/logout,evil-corp-app-15.apk
+76,Sensitive User Data Returned in API Response,/api/profile/upload,evil-corp-app-1.apk
+77,Token Refresh Endpoint Missing Session Validation,/api/products/filter,evil-corp-app-4.apk
+78,Brute-Forceable 2FA Verification Endpoint,/api/export/users,evil-corp-app-15.apk
+79,Sensitive User Data Returned in API Response,/api/search,evil-corp-app-6.apk
+80,Unrestricted File Upload in Profile Update,/api/profile/upload,evil-corp-app-7.apk
+81,Improper Error Handling Revealing Stack Trace,/api/auth/refresh-token,evil-corp-app-9.apk
+82,Improper Error Handling Revealing Stack Trace,/api/search,evil-corp-app-8.apk
+83,Improper CORS Configuration Allowing Wildcard Origins,/api/admin/create-user,evil-corp-app-2.apk
+84,Sensitive User Data Returned in API Response,/api/user/4774/settings,evil-corp-app-11.apk
+85,Improper Session Termination on Logout,/api/public/data,evil-corp-app-15.apk
+86,SQL Injection via Unsanitized Search Parameter,/api/user/update-role,evil-corp-app-1.apk
+87,SQL Injection in Product Filtering Endpoint,/api/profile/upload,evil-corp-app-19.apk
+88,Improper Session Termination on Logout,/api/products/filter,evil-corp-app-19.apk
+89,Sensitive User Data Returned in API Response,/api/user/update-role,evil-corp-app-19.apk
+90,Sensitive User Data Returned in API Response,/api/auth/refresh-token,evil-corp-app-20.apk
+91,Missing Authorization Check on User Settings Access,/api/logs/view,evil-corp-app-5.apk
+92,No Rate Limiting on Feedback Submission Endpoint,/api/admin/create-user,evil-corp-app-2.apk
+93,SQL Injection in Product Filtering Endpoint,/api/admin/report,evil-corp-app-9.apk
+94,Overexposed Admin Reports with Unfiltered Data,/api/admin/report,evil-corp-app-7.apk
+95,Hardcoded API Keys Found in Response,/api/user/8917/settings,evil-corp-app-4.apk
+96,No Rate Limiting on Feedback Submission Endpoint,/api/admin/create-user,evil-corp-app-17.apk
+97,Improper CORS Configuration Allowing Wildcard Origins,/api/invoice/6224/download,evil-corp-app-8.apk
+98,Insecure Login Endpoint Allowing Credential Stuffing,/api/internal/test,evil-corp-app-9.apk
+99,SQL Injection via Unsanitized Search Parameter,/api/user/update-role,evil-corp-app-8.apk
+100,Insecure Login Endpoint Allowing Credential Stuffing,/api/invoice/3066/download,evil-corp-app-20.apk

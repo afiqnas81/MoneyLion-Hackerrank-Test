@@ -1,0 +1,12 @@
+API Security Technical Report
+===========================================================
+
+- Total Vulnerabilities: 100
+- Unique Apps Affected: 20
+- Top Vulnerabilities:
+vulnerability_name
+Insecure Login Endpoint Allowing Credential Stuffing    10
+Improper Session Termination on Logout                   8
+Mass Assignment on User Role Field                       8
+Token Refresh Endpoint Missing Session Validation        8
+Sensitive User Data Returned in API Response             7
