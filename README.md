@@ -9,7 +9,8 @@ This repository contains the deliverables for the Hackerrank Test (Vulnerability
 
 ### Task 1:
 1. **Technical Escalation Report**  
-   - Attached via Google Docs link (includes statistical visualisations).  
+   - Attached via Google Docs link (includes statistical visualisations).
+   - https://docs.google.com/document/d/1LvFizUSyJRshGMsKRMOw8tFU_LdtrdH3JEGFTYYFcxY/edit?usp=sharing  
 2. **Remediation Tracker**  
    - Located in the `Q1` folder.  
 3. **Charts (Power BI)**  
@@ -26,3 +27,4 @@ This repository contains the deliverables for the Hackerrank Test (Vulnerability
 
 1. **Write-up Report**  
    - Attached via Google Docs link.
+   - https://docs.google.com/document/d/16u2M7wG1maMrcVfAM1KjTA4pM4YBmO4pdbyZhI9jCwg/edit?usp=sharing
